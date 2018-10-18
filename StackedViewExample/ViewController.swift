@@ -10,11 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    
+   
     @IBOutlet weak var tableView: UITableView!
     let payTransferCell:PayTransferFromCellTableViewCell = PayTransferFromCellTableViewCell.loadFromXib()
     override func viewDidLoad() {
         super.viewDidLoad()
+    
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -28,10 +29,10 @@ class ViewController: UIViewController {
 
 extension ViewController:UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-       return 1
+       return 2
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        return payTransferCell
+        return PayTransferFromCellTableViewCell.loadFromXib() as PayTransferFromCellTableViewCell
     }
 }

@@ -13,28 +13,29 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FromStackView" customModule="StackedViewExample" customModuleProvider="target">
             <connections>
                 <outlet property="contentView" destination="1y9-cn-rQX" id="RJa-5b-AFO"/>
+                <outlet property="textField" destination="WOD-tl-j9k" id="WcE-3r-Qxu"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" id="1y9-cn-rQX">
-            <rect key="frame" x="0.0" y="0.0" width="598" height="126"/>
+            <rect key="frame" x="0.0" y="0.0" width="598" height="232"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="yw9-BX-BRd">
-                    <rect key="frame" x="0.0" y="0.0" width="598" height="65.5"/>
+                    <rect key="frame" x="0.0" y="0.0" width="598" height="161.5"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ljdflkdjfldkjfkldjflkdjf" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RUn-z8-m47" customClass="CustomLabel" customModule="StackedViewExample" customModuleProvider="target">
-                            <rect key="frame" x="0.0" y="22.5" width="152.5" height="20.5"/>
+                            <rect key="frame" x="0.0" y="70.5" width="152.5" height="20.5"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <view contentMode="scaleToFill" horizontalHuggingPriority="249" horizontalCompressionResistancePriority="749" translatesAutoresizingMaskIntoConstraints="NO" id="09m-a6-cCa">
-                            <rect key="frame" x="162.5" y="0.0" width="379.5" height="65.5"/>
+                            <rect key="frame" x="162.5" y="0.0" width="379.5" height="161.5"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </view>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UJj-XV-ZLd">
-                            <rect key="frame" x="552" y="18" width="46" height="30"/>
+                            <rect key="frame" x="552" y="66" width="46" height="30"/>
                             <state key="normal" title="Button"/>
                         </button>
                     </subviews>
@@ -45,22 +46,20 @@
                     <viewLayoutGuide key="safeArea" id="egz-mF-nKK"/>
                 </stackView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qP6-RN-yki">
-                    <rect key="frame" x="0.0" y="75.5" width="598" height="20.5"/>
+                    <rect key="frame" x="0.0" y="171.5" width="598" height="20.5"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B65-Di-nII">
-                    <rect key="frame" x="0.0" y="106" width="598" height="20"/>
-                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="20" id="BUl-Px-Ahg"/>
-                    </constraints>
-                    <viewLayoutGuide key="safeArea" id="K1v-D8-yQf"/>
-                </view>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WOD-tl-j9k" customClass="CustomTextField" customModule="StackedViewExample" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="202" width="598" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
             </subviews>
             <viewLayoutGuide key="safeArea" id="Z0e-AC-tGO"/>
-            <point key="canvasLocation" x="-62" y="-377"/>
+            <point key="canvasLocation" x="-62" y="-324"/>
         </stackView>
     </objects>
 </document>

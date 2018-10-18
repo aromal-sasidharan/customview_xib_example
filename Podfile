@@ -7,6 +7,9 @@ target 'StackedViewExample' do
 
   # Pods for StackedViewExample
   pod 'R.swift'
+  pod 'Material', '~> 2.0'
+  pod 'MaterialTextField', '~> 0.2'
+  pod "TinyConstraints"
   target 'StackedViewExampleTests' do
     inherit! :search_paths
     # Pods for testing

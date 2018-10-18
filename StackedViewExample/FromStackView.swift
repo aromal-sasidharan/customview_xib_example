@@ -11,6 +11,7 @@ import UIKit
 class FromStackView: UIStackView {
 
     @IBOutlet var contentView: UIStackView!
+    @IBOutlet var textField: CustomTextField!
     override init(frame: CGRect) {
         super.init(frame:frame)
         setupView()
@@ -24,8 +25,11 @@ class FromStackView: UIStackView {
         setupView()
     }
     func setupView(){
+        
         Bundle.main.loadNibNamed(String(describing: FromStackView.self) , owner: self, options: nil)
         contentView.fixInView(self)
+        textField.leftLabel.text = "MYR"
+    
     }
 }
 
