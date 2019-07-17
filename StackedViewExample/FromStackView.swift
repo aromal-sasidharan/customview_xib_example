@@ -8,41 +8,58 @@
 
 import UIKit
 
-class FromStackView: UIStackView {
+public protocol NibFileLoadable: UIView {}
 
-    @IBOutlet var contentView: UIStackView!
-    @IBOutlet var textField: CustomTextField!
-    override init(frame: CGRect) {
-        super.init(frame:frame)
-        setupView()
+public extension NibFileLoadable {
+    
+    /**
+     Returns a `UIView` object instantiated from nib
+     */
+    func instantiateFromNib() -> UIView? {
+        let nib = UINib(nibName: String(describing: Self.self), bundle: Bundle(for: Self.self))
+        let view = nib.instantiate(withOwner: self, options: nil).first as? UIView
+        return view
     }
-    required init(coder: NSCoder) {
+    
+    /**
+     * Load the content of the first view in the XIB.
+     * Then add this as subview with constraints
+     */
+    func loadNibContent() {
+        guard let view = instantiateFromNib() else {
+            fatalError("Failed to instantiate \(String(describing: Self.self)).xib")
+        }
+        view.translatesAutoresizingMaskIntoConstraints = false
+        self.addSubview(view)
+        let views = ["view": view]
+        let verticalConstraints = NSLayoutConstraint.constraints(withVisualFormat: "V:|-0-[view]-0-|", options: .alignAllLastBaseline, metrics: nil, views: views)
+        let horizontalConstraints = NSLayoutConstraint.constraints(withVisualFormat: "H:|-0-[view]-0-|", options: .alignAllLastBaseline, metrics: nil, views: views)
+        addConstraints(verticalConstraints + horizontalConstraints)
+    }
+}
+
+class FromStackView: UIView,NibFileLoadable {
+
+   
+    @IBOutlet var textField: CustomTextField!
+    @IBOutlet var label: CustomLabel!
+    required init?(coder: NSCoder) {
         super.init(coder: coder)
         setupView()
     }
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        setupView()
-    }
+  
     func setupView(){
+     loadNibContent()
         
-        Bundle.main.loadNibNamed(String(describing: FromStackView.self) , owner: self, options: nil)
-        contentView.fixInView(self)
-        textField.leftLabel.text = "MYR"
+    }
+}
+
+
+
+class FromStackViewSub: FromStackView{
     
+    override func setupView(){
+      super.setupView()
+      label.text = "Hello"
     }
 }
-
-extension UIView
-{
-    func fixInView(_ container: UIView!) -> Void{
-        self.translatesAutoresizingMaskIntoConstraints = false;
-        self.frame = container.frame;
-        container.addSubview(self);
-        NSLayoutConstraint(item: self, attribute: .leading, relatedBy: .equal, toItem: container, attribute: .leading, multiplier: 1.0, constant: 0).isActive = true
-        NSLayoutConstraint(item: self, attribute: .trailing, relatedBy: .equal, toItem: container, attribute: .trailing, multiplier: 1.0, constant: 0).isActive = true
-        NSLayoutConstraint(item: self, attribute: .top, relatedBy: .equal, toItem: container, attribute: .top, multiplier: 1.0, constant: 0).isActive = true
-        NSLayoutConstraint(item: self, attribute: .bottom, relatedBy: .equal, toItem: container, attribute: .bottom, multiplier: 1.0, constant: 0).isActive = true
-    }
-}
-
