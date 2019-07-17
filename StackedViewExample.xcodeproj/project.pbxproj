@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08F416883B54F0ED5F9B6AF5 /* Pods_StackedViewExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184697E548D1DC6C648EDE98 /* Pods_StackedViewExample.framework */; };
 		0A187C7D215BD59300A1BCA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A187C7C215BD59300A1BCA6 /* AppDelegate.swift */; };
 		0A187C7F215BD59300A1BCA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A187C7E215BD59300A1BCA6 /* ViewController.swift */; };
 		0A187C82215BD59300A1BCA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A187C80215BD59300A1BCA6 /* Main.storyboard */; };
@@ -19,7 +18,6 @@
 		0A187CAD215BD5DB00A1BCA6 /* PayTransferFromCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A187CAB215BD5DB00A1BCA6 /* PayTransferFromCellTableViewCell.xib */; };
 		0A187CAF215BDB8E00A1BCA6 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A187CAE215BDB8E00A1BCA6 /* UIViewExtension.swift */; };
 		0A187CB1215BDECE00A1BCA6 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A187CB0215BDECE00A1BCA6 /* CustomLabel.swift */; };
-		0A187CB4215BE1DE00A1BCA6 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A187CB3215BE1DE00A1BCA6 /* R.generated.swift */; };
 		0A187CBB215BE24500A1BCA6 /* SFUIDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A187CB6215BE24400A1BCA6 /* SFUIDisplay-Bold.ttf */; };
 		0A187CBC215BE24500A1BCA6 /* SFUIDisplay-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A187CB7215BE24400A1BCA6 /* SFUIDisplay-Light.ttf */; };
 		0A187CBD215BE24500A1BCA6 /* SFUIDisplay-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A187CB8215BE24400A1BCA6 /* SFUIDisplay-Medium.ttf */; };
@@ -27,7 +25,6 @@
 		0A187CBF215BE24500A1BCA6 /* SFUIDisplay-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A187CBA215BE24400A1BCA6 /* SFUIDisplay-Semibold.ttf */; };
 		0A187CC1215BE84400A1BCA6 /* FromStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A187CC0215BE84400A1BCA6 /* FromStackView.swift */; };
 		0A187CC3215BE86300A1BCA6 /* FromStackView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A187CC2215BE86300A1BCA6 /* FromStackView.xib */; };
-		0A1B17722178F70500160EF1 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B17712178F70500160EF1 /* CustomTextField.swift */; };
 		6E0F44429A8A563B523C7304 /* Pods_StackedViewExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2BBBA5C5CD9BA6B77E6EEA5 /* Pods_StackedViewExampleUITests.framework */; };
 		EF63E64566AD178295673561 /* Pods_StackedViewExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2EA3462926644914CC3A0F /* Pods_StackedViewExampleTests.framework */; };
 /* End PBXBuildFile section */
@@ -50,7 +47,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02D6C50646DEF50A53DF74D0 /* Pods-StackedViewExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StackedViewExampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StackedViewExampleUITests/Pods-StackedViewExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		0A187C79215BD59300A1BCA6 /* StackedViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackedViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A187C7C215BD59300A1BCA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A187C7E215BD59300A1BCA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,7 +64,6 @@
 		0A187CAB215BD5DB00A1BCA6 /* PayTransferFromCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PayTransferFromCellTableViewCell.xib; sourceTree = "<group>"; };
 		0A187CAE215BDB8E00A1BCA6 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		0A187CB0215BDECE00A1BCA6 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
-		0A187CB3215BE1DE00A1BCA6 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
 		0A187CB6215BE24400A1BCA6 /* SFUIDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Bold.ttf"; sourceTree = "<group>"; };
 		0A187CB7215BE24400A1BCA6 /* SFUIDisplay-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Light.ttf"; sourceTree = "<group>"; };
 		0A187CB8215BE24400A1BCA6 /* SFUIDisplay-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Medium.ttf"; sourceTree = "<group>"; };
@@ -76,14 +71,8 @@
 		0A187CBA215BE24400A1BCA6 /* SFUIDisplay-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Semibold.ttf"; sourceTree = "<group>"; };
 		0A187CC0215BE84400A1BCA6 /* FromStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FromStackView.swift; sourceTree = "<group>"; };
 		0A187CC2215BE86300A1BCA6 /* FromStackView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FromStackView.xib; sourceTree = "<group>"; };
-		0A1B17712178F70500160EF1 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		184697E548D1DC6C648EDE98 /* Pods_StackedViewExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StackedViewExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		27B493EC2A69F19226999CC4 /* Pods-StackedViewExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StackedViewExampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StackedViewExampleUITests/Pods-StackedViewExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4D2EA3462926644914CC3A0F /* Pods_StackedViewExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StackedViewExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E0D52A365C15B559C613F12 /* Pods-StackedViewExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StackedViewExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StackedViewExample/Pods-StackedViewExample.debug.xcconfig"; sourceTree = "<group>"; };
-		6C45422686CAC067E24AD4CF /* Pods-StackedViewExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StackedViewExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StackedViewExampleTests/Pods-StackedViewExampleTests.release.xcconfig"; sourceTree = "<group>"; };
-		BE12FD7ACDB8CD84265D4703 /* Pods-StackedViewExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StackedViewExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-StackedViewExample/Pods-StackedViewExample.release.xcconfig"; sourceTree = "<group>"; };
-		DFEB18D647062AA5DEAFA15D /* Pods-StackedViewExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StackedViewExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StackedViewExampleTests/Pods-StackedViewExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F2BBBA5C5CD9BA6B77E6EEA5 /* Pods_StackedViewExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StackedViewExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -92,7 +81,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08F416883B54F0ED5F9B6AF5 /* Pods_StackedViewExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,7 +110,6 @@
 				0A187C90215BD59400A1BCA6 /* StackedViewExampleTests */,
 				0A187C9B215BD59400A1BCA6 /* StackedViewExampleUITests */,
 				0A187C7A215BD59300A1BCA6 /* Products */,
-				1DD844605C89D35FAD3A9F5D /* Pods */,
 				BFE6ED0F4622EBC2ACD36FEE /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -141,7 +128,6 @@
 			isa = PBXGroup;
 			children = (
 				0A187CB5215BE24400A1BCA6 /* fonts */,
-				0A187CB3215BE1DE00A1BCA6 /* R.generated.swift */,
 				0A187C7C215BD59300A1BCA6 /* AppDelegate.swift */,
 				0A187C7E215BD59300A1BCA6 /* ViewController.swift */,
 				0A187C80215BD59300A1BCA6 /* Main.storyboard */,
@@ -154,7 +140,6 @@
 				0A187CB0215BDECE00A1BCA6 /* CustomLabel.swift */,
 				0A187CC0215BE84400A1BCA6 /* FromStackView.swift */,
 				0A187CC2215BE86300A1BCA6 /* FromStackView.xib */,
-				0A1B17712178F70500160EF1 /* CustomTextField.swift */,
 			);
 			path = StackedViewExample;
 			sourceTree = "<group>";
@@ -189,19 +174,6 @@
 			path = fonts;
 			sourceTree = "<group>";
 		};
-		1DD844605C89D35FAD3A9F5D /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5E0D52A365C15B559C613F12 /* Pods-StackedViewExample.debug.xcconfig */,
-				BE12FD7ACDB8CD84265D4703 /* Pods-StackedViewExample.release.xcconfig */,
-				DFEB18D647062AA5DEAFA15D /* Pods-StackedViewExampleTests.debug.xcconfig */,
-				6C45422686CAC067E24AD4CF /* Pods-StackedViewExampleTests.release.xcconfig */,
-				02D6C50646DEF50A53DF74D0 /* Pods-StackedViewExampleUITests.debug.xcconfig */,
-				27B493EC2A69F19226999CC4 /* Pods-StackedViewExampleUITests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		BFE6ED0F4622EBC2ACD36FEE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -219,12 +191,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A187CA1215BD59400A1BCA6 /* Build configuration list for PBXNativeTarget "StackedViewExample" */;
 			buildPhases = (
-				5CDD8E976CD61CA9741B9085 /* [CP] Check Pods Manifest.lock */,
-				0A187CB2215BE13C00A1BCA6 /* RSwift */,
 				0A187C75215BD59300A1BCA6 /* Sources */,
 				0A187C76215BD59300A1BCA6 /* Frameworks */,
 				0A187C77215BD59300A1BCA6 /* Resources */,
-				DBB3DC3FA9608163F45CC5FF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -351,38 +320,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0A187CB2215BE13C00A1BCA6 /* RSwift */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = RSwift;
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT\"";
-		};
-		5CDD8E976CD61CA9741B9085 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-StackedViewExample-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		C05F37A27B326E7DC1212548 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -399,32 +336,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DBB3DC3FA9608163F45CC5FF /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-StackedViewExample/Pods-StackedViewExample-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
-				"${BUILT_PRODUCTS_DIR}/MaterialTextField/MaterialTextField.framework",
-				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
-				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
-				"${BUILT_PRODUCTS_DIR}/TinyConstraints/TinyConstraints.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialTextField.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motion.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TinyConstraints.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StackedViewExample/Pods-StackedViewExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E75F6621E91AFD43044DE756 /* [CP] Check Pods Manifest.lock */ = {
@@ -456,10 +367,8 @@
 				0A187C7F215BD59300A1BCA6 /* ViewController.swift in Sources */,
 				0A187CB1215BDECE00A1BCA6 /* CustomLabel.swift in Sources */,
 				0A187C7D215BD59300A1BCA6 /* AppDelegate.swift in Sources */,
-				0A1B17722178F70500160EF1 /* CustomTextField.swift in Sources */,
 				0A187CAF215BDB8E00A1BCA6 /* UIViewExtension.swift in Sources */,
 				0A187CAC215BD5DB00A1BCA6 /* PayTransferFromCellTableViewCell.swift in Sources */,
-				0A187CB4215BE1DE00A1BCA6 /* R.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -630,7 +539,6 @@
 		};
 		0A187CA2215BD59400A1BCA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E0D52A365C15B559C613F12 /* Pods-StackedViewExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -648,7 +556,6 @@
 		};
 		0A187CA3215BD59400A1BCA6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE12FD7ACDB8CD84265D4703 /* Pods-StackedViewExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -666,7 +573,6 @@
 		};
 		0A187CA5215BD59400A1BCA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DFEB18D647062AA5DEAFA15D /* Pods-StackedViewExampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -687,7 +593,6 @@
 		};
 		0A187CA6215BD59400A1BCA6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C45422686CAC067E24AD4CF /* Pods-StackedViewExampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -708,7 +613,6 @@
 		};
 		0A187CA8215BD59400A1BCA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02D6C50646DEF50A53DF74D0 /* Pods-StackedViewExampleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -728,7 +632,6 @@
 		};
 		0A187CA9215BD59400A1BCA6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27B493EC2A69F19226999CC4 /* Pods-StackedViewExampleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

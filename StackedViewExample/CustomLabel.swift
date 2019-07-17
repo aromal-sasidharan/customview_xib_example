@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Rswift
+
 class CustomLabel: UILabel {
 
    
@@ -32,7 +32,7 @@ class CustomLabel: UILabel {
     }
     func setupView(){
         textColor = UIColor.red
-        self.font = R.font.sfuiDisplayRegular(size: 40)
+       // self.font = R.font.sfuiDisplayRegular(size: 40)
         self.numberOfLines = 0
     }
 }

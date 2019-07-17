@@ -41,7 +41,7 @@ public extension NibFileLoadable {
 class FromStackView: UIView,NibFileLoadable {
 
    
-    @IBOutlet var textField: CustomTextField!
+    @IBOutlet var textField: UITextField!
     @IBOutlet var label: CustomLabel!
     required init?(coder: NSCoder) {
         super.init(coder: coder)
@@ -60,6 +60,6 @@ class FromStackViewSub: FromStackView{
     
     override func setupView(){
       super.setupView()
-      label.text = "Hello"
+      label.text = "HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHello"
     }
 }
